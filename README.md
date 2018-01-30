@@ -1,0 +1,2 @@
+# GoPractice
+testing out golang
