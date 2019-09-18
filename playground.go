@@ -23,6 +23,7 @@ func (l *List) Push(p Person) *List { //ref: http://l3x.github.io/golang-code-ex
   peep := &p
   if l.head == nil {
     fmt.Println("in if")
+    fmt.Println("Nothing in particular")
     fmt.Println(peep)
     l.head = peep
     l.tail = peep
